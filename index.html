@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Urna Eletrônica</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Eleição de Líder da Turma na Zueira</h1>
+
+  <div id="candidates">
+    <h2>Candidatos:</h2>
+    <input type="radio" name="candidate" value="candidato1">Candidato 1<br>
+    <input type="radio" name="candidate" value="candidato2">Candidato 2<br>
+    <input type="radio" name="candidate" value="candidato3">Candidato 3<br>
+
+    <button onclick="submitVote()">Votar</button>
+  </div>
+
+  <div id="result">
+    <h2>Resultado:</h2>
+    <p id="voteCount"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
